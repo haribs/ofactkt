@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="OFAC Ticketing App Test Automation">
+  <test thread-count="5" name="OFAC Ticketing Functional Testing">
+    <classes>
+      <class name="boh.qa.automation.ofactkt.tests.CreateAlertPageTest"/>
+      <class name="boh.qa.automation.ofactkt.tests.AssignAlertPageTest"/>
+    </classes>
+  </test>
+</suite>
